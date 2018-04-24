@@ -1,0 +1,54 @@
+{
+	"flights": [
+		{
+			"flight": {
+				"FlightNumber": 1103,
+				"FlightCarrier": "AA",
+				"SourceLocation": 1,
+				"DestinationLocation": 2,
+				"Fare": 20
+			},
+			"sc": [
+				{
+					"LocationID": 1,
+					"CityName": "New York",
+					"State": "NY",
+					"Country": "US"
+				}
+			],
+			"dc": [
+				{
+					"LocationID": 2,
+					"CityName": "Dallas",
+					"State": "TX",
+					"Country": "US"
+				}
+			]
+		},
+		{
+			"flight": {
+				"FlightNumber": 1104,
+				"FlightCarrier": "JetBlue",
+				"SourceLocation": 2,
+				"DestinationLocation": 1,
+				"Fare": 10
+			},
+			"sc": [
+				{
+					"LocationID": 2,
+					"CityName": "Dallas",
+					"State": "TX",
+					"Country": "US"
+				}
+			],
+			"dc": [
+				{
+					"LocationID": 1,
+					"CityName": "New York",
+					"State": "NY",
+					"Country": "US"
+				}
+			]
+		}
+	]
+}
