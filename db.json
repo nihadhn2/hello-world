@@ -1,4 +1,5 @@
-
+{
+	"flights": [
 		{
 			"flight": {
 				"FlightNumber": 1103,
@@ -49,3 +50,5 @@
 				}
 			]
 		}
+	]
+}
